@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Burn</string>
+
+    <!--Login Activity-->
+    <string name="burnslogan">Begin Your Revolution Now</string>
+    <string name="signup">SIGN UP</string>
+    <string name="signin">SIGN IN</string>
+    <string name="phraselogin">\"Speak to your personal nutritionist\"</string>
+    <!--Images descriptions-->
+    <!--Splash screen-->
+    <string name="logosplash">Burn logo</string>
+
+    <!--Login screen-->
+    <string name="logologin">Burn logo</string>
 </resources>
