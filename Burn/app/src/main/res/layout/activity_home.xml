@@ -33,8 +33,9 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/RelativeLayoutContainer">
-
+            android:id="@+id/RelativeLayoutContainer"
+            android:layout_below="@+id/RelativeLayoutToolbar">
+            <include layout="@layout/layout_center_home"/>
         </RelativeLayout>
 
         <!-- Bottom NavBar -->
@@ -43,13 +44,14 @@
             android:layout_height="50dp"
             android:layout_alignParentBottom="true">
 
-            <android.support.design.widget.BottomNavigationView
+            <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:itemIconTint="@color/colorAccent"
                 android:id="@+id/bottomNavigationBar"
-                app:menu="@menu/bottom_navigation_items">
+                app:menu="@menu/bottom_navigation_items"/>
 
-            </android.support.design.widget.BottomNavigationView>
         </RelativeLayout>
     </RelativeLayout>
 

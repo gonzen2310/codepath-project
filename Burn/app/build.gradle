@@ -29,4 +29,8 @@ dependencies {
     // Design Library
     implementation 'com.android.support:design:27.1.1'
 
+    // Bottom Navigation Bar
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:1.2.4'
+
+
 }
