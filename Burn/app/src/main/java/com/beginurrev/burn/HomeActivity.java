@@ -22,6 +22,7 @@ public class HomeActivity extends AppCompatActivity {
         mbottomNavigationViewEx.enableAnimation(false);
         mbottomNavigationViewEx.enableShiftingMode(false);
         mbottomNavigationViewEx.enableItemShiftingMode(false);
+        mbottomNavigationViewEx.setTextVisibility(false);
 
     }
 }

@@ -41,14 +41,15 @@
         <!-- Bottom NavBar -->
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="56dp"
             android:layout_alignParentBottom="true">
 
             <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="56dp"
                 android:layout_alignParentBottom="true"
-                app:itemIconTint="@color/colorAccent"
+                android:background="@color/navbarBackground"
+                app:itemIconTint="@color/navbarIcon"
                 android:id="@+id/bottomNavigationBar"
                 app:menu="@menu/bottom_navigation_items"/>
 
