@@ -25,7 +25,13 @@
                 android:elevation="4dp"
                 android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/colorAccent"
+                    android:layout_gravity="center"
+                    android:id="@+id/toolbarTitle" />
             </android.support.v7.widget.Toolbar>
         </RelativeLayout>
 
@@ -35,7 +41,11 @@
             android:layout_height="match_parent"
             android:id="@+id/RelativeLayoutContainer"
             android:layout_below="@+id/RelativeLayoutToolbar">
-            <include layout="@layout/layout_center_home"/>
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/container">
+            </android.support.v4.view.ViewPager>
         </RelativeLayout>
 
         <!-- Bottom NavBar -->
@@ -48,6 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_alignParentBottom="true"
+                android:elevation="4dp"
                 android:background="@color/navbarBackground"
                 app:itemIconTint="@color/navbarIcon"
                 android:id="@+id/bottomNavigationBar"
