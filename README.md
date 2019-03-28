@@ -1,13 +1,2 @@
-# Burn
-Burn - Begun Ur Revolution Now
-
-Repository for Burn Android Application
-Developers: Lord Gaurav and Gonzalo
-
-This repository contains:
-+ Source code
-+ Project resources 
-  - Images
-  - Videos
-  - Audios
-+ Prototypes
+# Circle CI 
+This repository is a test for Circle CI 2.0
